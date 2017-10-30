@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1BF549A-6521-47C4-8725-D6E52490D9F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CZZD.ERP.IF</RootNamespace>
+    <AssemblyName>ERP.IF</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receive\AbstractReceive.cs" />
+    <Compile Include="Receive\CompositionProductsReceive.cs" />
+    <Compile Include="Receive\CompositionProductsSpecificationReceive.cs" />
+    <Compile Include="Receive\CurrencyReceive.cs" />
+    <Compile Include="Receive\CustomerPriceReceive.cs" />
+    <Compile Include="Receive\CustomerReceive.cs" />
+    <Compile Include="Receive\CustomerReportedReceive.cs" />
+    <Compile Include="Receive\DeliveryReceive.cs" />
+    <Compile Include="Receive\LocationReceive.cs" />
+    <Compile Include="Receive\MachineReceive.cs" />
+    <Compile Include="Receive\MasterMachineReceive.cs" />
+    <Compile Include="Receive\ProductGroupReceive.cs" />
+    <Compile Include="Receive\ProductPartsReceive.cs" />
+    <Compile Include="Receive\ProductReceive.cs" />
+    <Compile Include="Receive\ProductUnitReceive.cs" />
+    <Compile Include="Receive\SafetyStockReceive.cs" />
+    <Compile Include="Receive\SlipTypeCompositionProductsReceive.cs" />
+    <Compile Include="Receive\SlipTypeReceive.cs" />
+    <Compile Include="Receive\SpecificationReceive.cs" />
+    <Compile Include="Receive\StockReceive.cs" />
+    <Compile Include="Receive\SupplierPriceReceive.cs" />
+    <Compile Include="Receive\SupplierReceive.cs" />
+    <Compile Include="Receive\TaxAtionReceive.cs" />
+    <Compile Include="Receive\UnitReceive.cs" />
+    <Compile Include="Receive\UserReceive.cs" />
+    <Compile Include="Receive\WarehouseReceive.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.Bll\ERP.Bll.csproj">
+      <Project>{EF90FC70-06B7-4269-854B-6D25CC22C2E9}</Project>
+      <Name>ERP.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.CacheData\ERP.CacheData.csproj">
+      <Project>{C07459CD-CAA2-4A23-A969-4C88DA863E27}</Project>
+      <Name>ERP.CacheData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Common\ERP.Common.csproj">
+      <Project>{859BD356-F003-4F14-859B-CC3C6E060A08}</Project>
+      <Name>ERP.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Model\ERP.Model.csproj">
+      <Project>{05DC5741-D410-47B1-9081-83E4BB19B0D5}</Project>
+      <Name>ERP.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Send\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.WinUI", "ERP.WinUI\ERP.WinUI.csproj", "{C0FA9423-D1B6-4BC8-B27A-F7B6C2040751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Main", "ERP.Main\ERP.Main.csproj", "{D7923F6A-72FD-446A-8020-9E230022C120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Bll", "ERP.Bll\ERP.Bll.csproj", "{EF90FC70-06B7-4269-854B-6D25CC22C2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Model", "ERP.Model\ERP.Model.csproj", "{05DC5741-D410-47B1-9081-83E4BB19B0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.DALFactory", "ERP.DALFactory\ERP.DALFactory.csproj", "{603DC5C0-1FF8-4530-BCB6-9CCB012E12B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.IDAL", "ERP.IDAL\ERP.IDAL.csproj", "{FC10A42C-F85A-4D5C-BE6F-092E288A7565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.DBUtility", "ERP.DBUtility\ERP.DBUtility.csproj", "{EE3CACDF-43E0-4DA9-AD66-8A97D548774B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Common", "ERP.Common\ERP.Common.csproj", "{859BD356-F003-4F14-859B-CC3C6E060A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.SQLServerDAL", "ERP.SQLServerDAL\ERP.SQLServerDAL.csproj", "{07D339C1-BC10-4ACB-8552-2249D953A9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.ComControls", "ERP.Controls\ERP.ComControls.csproj", "{03F455FB-E13A-4DFD-A307-29CC293C2412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.CacheData", "ERP.CacheData\ERP.CacheData.csproj", "{C07459CD-CAA2-4A23-A969-4C88DA863E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.IF", "ERP.IF\ERP.IF.csproj", "{B1BF549A-6521-47C4-8725-D6E52490D9F0}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 13
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ERP.Bll\\ERP.Bll.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = ERP.Bll\\
+		SccProjectUniqueName2 = ERP.CacheData\\ERP.CacheData.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = ERP.CacheData\\
+		SccProjectUniqueName3 = ERP.Common\\ERP.Common.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = ERP.Common\\
+		SccProjectUniqueName4 = ERP.Controls\\ERP.ComControls.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = ERP.Controls\\
+		SccProjectUniqueName5 = ERP.DALFactory\\ERP.DALFactory.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = ERP.DALFactory\\
+		SccProjectUniqueName6 = ERP.DBUtility\\ERP.DBUtility.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = ERP.DBUtility\\
+		SccProjectUniqueName7 = ERP.IDAL\\ERP.IDAL.csproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = ERP.IDAL\\
+		SccProjectUniqueName8 = ERP.IF\\ERP.IF.csproj
+		SccLocalPath8 = .
+		SccProjectFilePathRelativizedFromConnection8 = ERP.IF\\
+		SccProjectUniqueName9 = ERP.Main\\ERP.Main.csproj
+		SccLocalPath9 = .
+		SccProjectFilePathRelativizedFromConnection9 = ERP.Main\\
+		SccProjectUniqueName10 = ERP.Model\\ERP.Model.csproj
+		SccLocalPath10 = .
+		SccProjectFilePathRelativizedFromConnection10 = ERP.Model\\
+		SccProjectUniqueName11 = ERP.SQLServerDAL\\ERP.SQLServerDAL.csproj
+		SccLocalPath11 = .
+		SccProjectFilePathRelativizedFromConnection11 = ERP.SQLServerDAL\\
+		SccProjectUniqueName12 = ERP.WinUI\\ERP.WinUI.csproj
+		SccLocalPath12 = .
+		SccProjectFilePathRelativizedFromConnection12 = ERP.WinUI\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0FA9423-D1B6-4BC8-B27A-F7B6C2040751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FA9423-D1B6-4BC8-B27A-F7B6C2040751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FA9423-D1B6-4BC8-B27A-F7B6C2040751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FA9423-D1B6-4BC8-B27A-F7B6C2040751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7923F6A-72FD-446A-8020-9E230022C120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7923F6A-72FD-446A-8020-9E230022C120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7923F6A-72FD-446A-8020-9E230022C120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7923F6A-72FD-446A-8020-9E230022C120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF90FC70-06B7-4269-854B-6D25CC22C2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF90FC70-06B7-4269-854B-6D25CC22C2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF90FC70-06B7-4269-854B-6D25CC22C2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF90FC70-06B7-4269-854B-6D25CC22C2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DC5741-D410-47B1-9081-83E4BB19B0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DC5741-D410-47B1-9081-83E4BB19B0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DC5741-D410-47B1-9081-83E4BB19B0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DC5741-D410-47B1-9081-83E4BB19B0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603DC5C0-1FF8-4530-BCB6-9CCB012E12B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603DC5C0-1FF8-4530-BCB6-9CCB012E12B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603DC5C0-1FF8-4530-BCB6-9CCB012E12B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603DC5C0-1FF8-4530-BCB6-9CCB012E12B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC10A42C-F85A-4D5C-BE6F-092E288A7565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC10A42C-F85A-4D5C-BE6F-092E288A7565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC10A42C-F85A-4D5C-BE6F-092E288A7565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC10A42C-F85A-4D5C-BE6F-092E288A7565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3CACDF-43E0-4DA9-AD66-8A97D548774B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3CACDF-43E0-4DA9-AD66-8A97D548774B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3CACDF-43E0-4DA9-AD66-8A97D548774B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3CACDF-43E0-4DA9-AD66-8A97D548774B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859BD356-F003-4F14-859B-CC3C6E060A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859BD356-F003-4F14-859B-CC3C6E060A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859BD356-F003-4F14-859B-CC3C6E060A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859BD356-F003-4F14-859B-CC3C6E060A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D339C1-BC10-4ACB-8552-2249D953A9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D339C1-BC10-4ACB-8552-2249D953A9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D339C1-BC10-4ACB-8552-2249D953A9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D339C1-BC10-4ACB-8552-2249D953A9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F455FB-E13A-4DFD-A307-29CC293C2412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F455FB-E13A-4DFD-A307-29CC293C2412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F455FB-E13A-4DFD-A307-29CC293C2412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F455FB-E13A-4DFD-A307-29CC293C2412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07459CD-CAA2-4A23-A969-4C88DA863E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07459CD-CAA2-4A23-A969-4C88DA863E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07459CD-CAA2-4A23-A969-4C88DA863E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07459CD-CAA2-4A23-A969-4C88DA863E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BF549A-6521-47C4-8725-D6E52490D9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BF549A-6521-47C4-8725-D6E52490D9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BF549A-6521-47C4-8725-D6E52490D9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BF549A-6521-47C4-8725-D6E52490D9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigSetting>
+  <AppConfig>
+    <AppDAL>ERP.SQLServerDAL</AppDAL>
+    <ConStringEncrypt>false</ConStringEncrypt>
+    <ConnectionString>Data Source=LENOVO-PC;User ID=sa;Password=czzd;Initial Catalog=YS_ERP;Pooling=true</ConnectionString>
+  </AppConfig>
+</ConfigSetting>

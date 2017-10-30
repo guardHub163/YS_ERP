@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07D339C1-BC10-4ACB-8552-2249D953A9B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CZZD.ERP.SQLServerDAL</RootNamespace>
+    <AssemblyName>ERP.SQLServerDAL</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Finance\SupplierDepositArrManage.cs" />
+    <Compile Include="Finance\DepositArrManage.cs" />
+    <Compile Include="Finance\DepositManage.cs" />
+    <Compile Include="Finance\SupplierDepositManage.cs" />
+    <Compile Include="Invoice\InvoiceManage.cs" />
+    <Compile Include="Master\CompanyManage.cs" />
+    <Compile Include="Master\DrawingManage.cs" />
+    <Compile Include="Master\MaterialManage.cs" />
+    <Compile Include="Master\TechnologyManage.cs" />
+    <Compile Include="Order\BankManage.cs" />
+    <Compile Include="Production\ProductionDrawingManage.cs" />
+    <Compile Include="Production\ProductionPlanManage.cs" />
+    <Compile Include="Production\ProductionPlanSearchManage.cs" />
+    <Compile Include="Product\CompositionProductsManage.cs" />
+    <Compile Include="Master\CurrencyManage.cs" />
+    <Compile Include="Master\CustomerManage.cs" />
+    <Compile Include="Master\CustomerPriceManage.cs" />
+    <Compile Include="Master\CustomerReportedManage.cs" />
+    <Compile Include="Master\DeliveryManage.cs" />
+    <Compile Include="Master\DepartmentManage.cs" />
+    <Compile Include="Master\ExchangeManage.cs" />
+    <Compile Include="Master\HsCodeManage.cs" />
+    <Compile Include="Master\LocationManage.cs" />
+    <Compile Include="Master\MasterMachineManage.cs" />
+    <Compile Include="Product\ProductGroupManage.cs" />
+    <Compile Include="Product\ProductionProcessManage.cs" />
+    <Compile Include="Production\ProductionScheduleManage.cs" />
+    <Compile Include="Product\ProductManage.cs" />
+    <Compile Include="Product\ProductPartsManage.cs" />
+    <Compile Include="Master\ProductUnitManage.cs" />
+    <Compile Include="Master\ReasonManage.cs" />
+    <Compile Include="Master\RolesManage.cs" />
+    <Compile Include="Master\SafetyStockManage.cs" />
+    <Compile Include="Product\SlipTypeManage.cs" />
+    <Compile Include="Product\SlipTypeCompositionProductsManage.cs" />
+    <Compile Include="Master\SupplierManage.cs" />
+    <Compile Include="Master\SupplierPriceManage.cs" />
+    <Compile Include="Master\TaxAtionManage.cs" />
+    <Compile Include="Master\UnitManage.cs" />
+    <Compile Include="Order\OrderHeaderManage.cs" />
+    <Compile Include="Finance\PaymentMatchManage.cs" />
+    <Compile Include="Production\ProduceManage.cs" />
+    <Compile Include="Product\CompositionProductsProductionProcessManage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Finance\PurchaseManage.cs" />
+    <Compile Include="PurchaseOrder\PurchaseOrderManage.cs" />
+    <Compile Include="Order\QuotationManage.cs" />
+    <Compile Include="Stock\AlloationManage.cs" />
+    <Compile Include="Stock\InventoryManage.cs" />
+    <Compile Include="Stock\ProductBuildManage.cs" />
+    <Compile Include="Stock\ReceiptManage.cs" />
+    <Compile Include="Finance\ReceiptMatchManage.cs" />
+    <Compile Include="Finance\SalesManage.cs" />
+    <Compile Include="Stock\ShipmentManage.cs" />
+    <Compile Include="Stock\StockManage.cs" />
+    <Compile Include="Stock\TransferManage.cs" />
+    <Compile Include="Sys\CommonManage.cs" />
+    <Compile Include="Master\UserManage.cs" />
+    <Compile Include="Master\WarehouseManage.cs" />
+    <Compile Include="Sys\SysCommonManage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.CacheData\ERP.CacheData.csproj">
+      <Project>{C07459CD-CAA2-4A23-A969-4C88DA863E27}</Project>
+      <Name>ERP.CacheData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Common\ERP.Common.csproj">
+      <Project>{859BD356-F003-4F14-859B-CC3C6E060A08}</Project>
+      <Name>ERP.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.DBUtility\ERP.DBUtility.csproj">
+      <Project>{EE3CACDF-43E0-4DA9-AD66-8A97D548774B}</Project>
+      <Name>ERP.DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.IDAL\ERP.IDAL.csproj">
+      <Project>{FC10A42C-F85A-4D5C-BE6F-092E288A7565}</Project>
+      <Name>ERP.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Model\ERP.Model.csproj">
+      <Project>{05DC5741-D410-47B1-9081-83E4BB19B0D5}</Project>
+      <Name>ERP.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

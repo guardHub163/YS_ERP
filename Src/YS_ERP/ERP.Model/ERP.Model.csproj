@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05DC5741-D410-47B1-9081-83E4BB19B0D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CZZD.ERP.Model</RootNamespace>
+    <AssemblyName>ERP.Model</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Finance\BllSupplierDepositArrTable.cs" />
+    <Compile Include="Finance\BllSupplierDepositTable.cs" />
+    <Compile Include="IF\BllReceiveLogTable.cs" />
+    <Compile Include="Master\BaseBankTable.cs" />
+    <Compile Include="Master\BaseCompositionProductsTable.cs" />
+    <Compile Include="Master\BaseDeliveryTable.cs" />
+    <Compile Include="Master\BaseDrawingtTable.cs" />
+    <Compile Include="Master\BaseExchangeTable.cs" />
+    <Compile Include="Master\BaseMasterMachineTable.cs" />
+    <Compile Include="Master\BaseMaterialTable.cs" />
+    <Compile Include="Master\BaseProductionProcessTable.cs" />
+    <Compile Include="Master\BaseReasonTable.cs" />
+    <Compile Include="Master\BaseSlipTypeCompositionProductsTable.cs" />
+    <Compile Include="Master\BaseTechnologyTable.cs" />
+    <Compile Include="Order\BllAlloationTable.cs" />
+    <Compile Include="Finance\BllDepositArrLineTable.cs" />
+    <Compile Include="Finance\BllDepositArrTable.cs" />
+    <Compile Include="Finance\BllDepositTable.cs" />
+    <Compile Include="Order\BllHistoryOrderHeaderTable.cs" />
+    <Compile Include="Order\BllHistoryOrderLineTable.cs" />
+    <Compile Include="Finance\BllPaymentMatchTable.cs" />
+    <Compile Include="Finance\BllPurchaseLineTable.cs" />
+    <Compile Include="Master\BaseDeskTable.cs" />
+    <Compile Include="Master\BaseRolesTable.cs" />
+    <Compile Include="Order\BllOrderServiceTable.cs" />
+    <Compile Include="Order\BllQuotationLineTable.cs" />
+    <Compile Include="Order\BllQuotationTable.cs" />
+    <Compile Include="Produce\BllOrderLineProductPartsTable.cs" />
+    <Compile Include="Product\BaseCompositionProductsProductionProcessTable.cs" />
+    <Compile Include="Product\BaseProductionDrawingTable.cs" />
+    <Compile Include="Product\baseProductionPlanDrawingLineTable.cs" />
+    <Compile Include="Product\BaseProductionPlanLineTable.cs" />
+    <Compile Include="Product\BaseProductionPlanTable.cs" />
+    <Compile Include="Product\BaseProductionScheduleProductionProcessTable.cs" />
+    <Compile Include="Product\BaseProductionTechnologyTable.cs" />
+    <Compile Include="PurchaseOrder\BllPurchaseOrderLineTable.cs" />
+    <Compile Include="PurchaseOrder\BllPurchaseOrderTable.cs" />
+    <Compile Include="Finance\BllPurchaseTable.cs" />
+    <Compile Include="Stock\BllInventoryLineTable.cs" />
+    <Compile Include="Stock\BllInventoryTable.cs" />
+    <Compile Include="Stock\BaseStockTable.cs" />
+    <Compile Include="Stock\BllHistoryStockLineTable.cs" />
+    <Compile Include="Stock\BllHistoryStockTable.cs" />
+    <Compile Include="Stock\BllProductBuildLineTable.cs" />
+    <Compile Include="Stock\BllProductBuildTable.cs" />
+    <Compile Include="Stock\BllReceiptLineTable.cs" />
+    <Compile Include="Finance\BllReceiptMatchTable.cs" />
+    <Compile Include="Stock\BllReceiptPlanTable.cs" />
+    <Compile Include="Stock\BllReceiptTable.cs" />
+    <Compile Include="Finance\BllSalesLineTable.cs" />
+    <Compile Include="Finance\BllSalesTable.cs" />
+    <Compile Include="Stock\BllReReceiptLineTable.cs" />
+    <Compile Include="Stock\BllReReceiptTable.cs" />
+    <Compile Include="Stock\BllShipmentLineTable.cs" />
+    <Compile Include="Stock\BllShipmentTable.cs" />
+    <Compile Include="Master\BaseCompanyTable.cs" />
+    <Compile Include="Master\BaseCurrencyTable.cs" />
+    <Compile Include="Master\BaseCustomerPriceTable.cs" />
+    <Compile Include="Master\BaseCustomerReportedTable.cs" />
+    <Compile Include="Master\BaseCustomerTable.cs" />
+    <Compile Include="Master\BaseDepartmentTable.cs" />
+    <Compile Include="Master\BaseHsCodeTable.cs" />
+    <Compile Include="Master\BaseLocationTable.cs" />
+    <Compile Include="Master\BaseProductGroupTable.cs" />
+    <Compile Include="Master\BaseProductPartsTable.cs" />
+    <Compile Include="Master\BaseProductTable.cs" />
+    <Compile Include="Master\BaseSafetyStockTable.cs" />
+    <Compile Include="Master\BaseSlipTypeTable.cs" />
+    <Compile Include="Master\BaseSupplierPriceTable.cs" />
+    <Compile Include="Master\BaseSupplierTable.cs" />
+    <Compile Include="Master\BaseTaxAtionTable.cs" />
+    <Compile Include="Master\BaseUnitTable.cs" />
+    <Compile Include="Master\BaseUserTable.cs" />
+    <Compile Include="Master\BaseWarehouseTable.cs" />
+    <Compile Include="Master\BaseProductUnitTable.cs" />
+    <Compile Include="Order\BllOrderHeaderTable.cs" />
+    <Compile Include="Order\BllOrderLineTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stock\BllTransferReceiptLineTable.cs" />
+    <Compile Include="Stock\BllTransferReceiptTable.cs" />
+    <Compile Include="Sys\BaseMaster.cs" />
+    <Compile Include="Sys\ListItem.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?>
+<AutoUpdater>
+	<Url>\\192.168.0.40\czzd\个人文件\薛卫\AutoUpdate\</Url> 
+	<Files> 
+		<File Name="WinUI.dll" Ver="1.0.0.0" size="11050"/>
+		<File Name="WinUI.dll" Ver="1.0.0.0" size="11050"/>
+		<File Name="WinUI.dll" Ver="1.0.0.0" size="11050"/>
+		<File Name="WinUI.dll" Ver="1.0.0.0" size="11050"/>
+		<File Name="WinUI.dll" Ver="1.0.0.0" size="11050"/>
+	</Files> 
+</AutoUpdater>
